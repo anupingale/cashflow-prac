@@ -142,7 +142,7 @@ class Game {
       this.skipTurn();
     }
     this.resetActiveCard();
-    this.stableGameJson = JSON.stringify(this);
+    // this.stableGameJson = JSON.stringify(this);
   }
 
   setActiveCard(type, data) {
